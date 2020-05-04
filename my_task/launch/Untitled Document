@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="my_task" type="play" name="sensor.bag" required= "true" args ="$(find Downloads)/LaserScanProcessor"
+
+<node pkg = "my_task" type="extract_msgs.py" name= "extract_msgs" output= "screen">
+
+</node>
+</launch>

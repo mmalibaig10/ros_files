@@ -1,0 +1,17 @@
+<launch>
+
+
+
+<node
+name ="rostensorflow_image_recognition_node"
+pkg = "tf_unit1_pkg"
+type = "image_recognition.py"
+args =""
+output ="screen">
+
+<remap from ="image" to = "$(arg rgb_image_topic)" />
+</node>
+
+
+
+</launch>

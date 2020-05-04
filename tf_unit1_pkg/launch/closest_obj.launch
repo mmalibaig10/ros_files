@@ -1,0 +1,4 @@
+<launch>
+  <node pkg ="tf_unit1_pkg" type="closest_obj.py" name="compute_closest_obstcl" output ="screen">
+  </node>
+</launch>

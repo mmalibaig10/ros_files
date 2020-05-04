@@ -1,0 +1,4 @@
+<launch>
+  <node pkg ="my_task" type="try.py" name="scan_values" output ="screen">
+  </node>
+</launch>
